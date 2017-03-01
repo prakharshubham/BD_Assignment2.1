@@ -1,0 +1,5 @@
+Task 1: Type hadoop fs -ls output: showed few directories but hadoop wasn't there.
+
+Type hadoop fs -mkdir /user/acadgild/hadoop Type hadoop fs -ls Output: Now hadoop folder was present in that location
+
+Task2: Command: hadoop fs -touchz /user/acadgild/hadoop/word-count.txt Command: cd hadoop Command: ls Output: word-count.txt is present Command: cat > word-count.txt Entered random lines and then ctrl+d Command: hadoop fs -appendToFile word-count.txt /user/acadgild/hadoop/word-count.txt Command: hadoop fs -cat /user/acadgild/hadoop/word-count.txt Output: The same text was visible here in this file too
